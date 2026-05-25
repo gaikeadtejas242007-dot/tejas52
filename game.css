@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: green;
+}
+
+.bigbody{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:10px;
+}
+.structure{
+    text-align: center;
+}
+
+
+.gamebody{
+    height:300px;
+    width:300px;
+    /* border:2px solid red; */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:5px;
+
+   
+}
+button{
+        height:100%;
+        width:100%;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: green;
+        border-radius:10px;
+        cursor:pointer;
+        background-color:white;
+        color:black;
+        border:2px solid black;
+}
+.but{
+    height:90px;
+
+}
+
+
+.s{
+    height:40px;
+    width:120px;
+    background:linear-gradient(green,aqua);
+    
+}
+.wintext{
+    height:40px;
+    width:100%;
+   
+    color:white;
+    text-align:center;
+    font-size:30px;
+    margin-top:20px;
+}
+#lastpart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}   
+
+#reset{
+    height:40px;
+    width:120px;
+    background:linear-gradient(green,aqua);
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:10px;
+    cursor:pointer;
+}
